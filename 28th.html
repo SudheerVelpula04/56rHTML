@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <!--
+    img
+    anchor tag
+    iframe
+    tables
+    bookmarking
+    multi media tags
+    lists
+    details and summary
+    forms
+     -->
+    <!-- forms-action,get,enctype
+         label- for
+         input-type,name*,id,value -->
+
+    <form action="./submit.html" method="get" autocomplete="off">
+       
+        <fieldset>
+            <legend>Appliction</legend>
+             <label for="first">firstname:</label>
+        <input type="text" name="firstname" id="first" autofocus>
+        <br>
+        <label for="last">lastnmae:</label>
+        <input type="text" name="lastname" id="last">
+        <br>
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date">
+        <br>
+        <!-- radio  -->
+         <!-- male -->
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <!-- female -->
+        <label for="female">Female:</label>
+        <input type="radio" id="female" name="gender" value="female">
+
+        <br>
+        <label for="num">Number <span style="color: red;"><sup>*</sup></span> :</label>
+        <input type="text" id="num" name="number" autofocus>
+        <br>
+        <label for="adhar">Adhar:</label>
+        <input type="text" name="adhar" id="adhar"  maxlength="12" minlength="12">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" >
+        <br>
+        <input type="file">
+
+        </fieldset>
+
+
+        <input type="submit">
+    </form>
+
+
+
+</body>
+</html>
